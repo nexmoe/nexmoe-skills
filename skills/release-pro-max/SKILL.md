@@ -1,5 +1,5 @@
 ---
-name: release-skills
+name: release-pro-max
 description: Universal release workflow. Auto-detects version files and changelogs. Supports Node.js, Python, Rust, Claude Plugin, and generic projects. Use when user says "release", "发布", "new version", "bump version", "push", "推送".
 ---
 
@@ -9,7 +9,7 @@ Universal release workflow supporting any project type with multi-language chang
 
 ## Quick Start
 
-Just run `/release-skills` - auto-detects your project configuration.
+Just run `/release-pro-max` - auto-detects your project configuration.
 
 ## Supported Projects
 
@@ -482,11 +482,11 @@ No changes made. Run without --dry-run to execute.
 ## Example Usage
 
 ```
-/release-skills              # Auto-detect version bump
-/release-skills --dry-run    # Preview only
-/release-skills --minor      # Force minor bump
-/release-skills --patch      # Force patch bump
-/release-skills --major      # Force major bump (with confirmation)
+/release-pro-max              # Auto-detect version bump
+/release-pro-max --dry-run    # Preview only
+/release-pro-max --minor      # Force minor bump
+/release-pro-max --patch      # Force patch bump
+/release-pro-max --major      # Force major bump (with confirmation)
 ```
 
 ## When to Use
